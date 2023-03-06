@@ -12,7 +12,7 @@
 - more projects are coming soon!
 
 ## Author ##
-*[Elijah B. Akinnodi](https://www.linkedin.com/in/elijah-b-akinnodi-002bb952/)
+* [Elijah B. Akinnodi](https://www.linkedin.com/in/elijah-b-akinnodi-002bb952/)
 
 # WARNING!! #
 
