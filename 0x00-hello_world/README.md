@@ -18,8 +18,17 @@ This is the beginning of C-Programing on C using Vi and Emacs. I have installed 
 * **Name**
   * [3-name](./3-name): Bash script that compiles a `C` file and creates an executable named `cisfun`.
   
-* **Hello, puts**
+* **Hello puts**
   * [4-puts.c](./4-puts.c): `C` program that prints exactly `"Programming is like building a multilingual puzzle"`, followed by a new line `printf`.
   
   * **Hello, printf**   
     * [5-printf.c](./5-printf.c):  `C` program that prints exactly `with proper grammar, but the outcome is a piece of art`, followed by a new line using the command `printf`
+    
+* **Size is not grandeur, and territory does not make a nation**
+  * [6-size.c](./6-size.c): `C` program that prints the size of various types on the computer it is compiled and run on.
+  
+* **Intel**
+  * [100-intel](./100-intel): script that generates the assembly code (Intel syntax) of a `C` code and save it in an output file.
+     * The `C` file name will be saved in the variable `$CFILE` with the extension `.s` instead of `.c`.
+         * Example: if the C file is `main.c`, the output file should be `main.s`.
+        
