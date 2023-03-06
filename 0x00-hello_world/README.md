@@ -24,7 +24,7 @@ This is the beginning of C-Programing on C using Vi and Emacs. I have installed 
   * **Hello, printf**   
     * [5-printf.c](./5-printf.c):  `C` program that prints exactly `with proper grammar, but the outcome is a piece of art`, followed by a new line using the command `printf`
     
-* **Size is not grandeur, and territory does not make a nation**
+* **Size is not grandeur**
   * [6-size.c](./6-size.c): `C` program that prints the size of various types on the computer it is compiled and run on.
   
 * **Intel**
@@ -32,3 +32,5 @@ This is the beginning of C-Programing on C using Vi and Emacs. I have installed 
      * The `C` file name will be saved in the variable `$CFILE` with the extension `.s` instead of `.c`.
          * Example: if the C file is `main.c`, the output file should be `main.s`.
         
+* **UNIX**
+  * [101-quote.c](./101-quote.c): C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error.
