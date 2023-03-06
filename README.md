@@ -12,10 +12,8 @@
 - more projects are coming soon!
 
 ## Author ##
-[Elijah B. Akinnodi](https://www.linkedin.com/in/elijah-b-akinnodi-002bb952/)
+*[Elijah B. Akinnodi](https://www.linkedin.com/in/elijah-b-akinnodi-002bb952/)
 
 # WARNING!! #
 
 - This is done as a school assignment. DO NOT COPY my work. i would advise you RTFM to come up with your solutions. i'm a single reach away away [contact me:](https://www.linkedin.com/in/elijah-b-akinnodi-002bb952/)
-
-
