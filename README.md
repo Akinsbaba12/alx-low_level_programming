@@ -1,3 +1,3 @@
-This is an introduction to C - Programming Language
+# This is an introduction to C - Programming Language #
 
-alx-low_level_programming
+- 0x00. C - Hello, World
