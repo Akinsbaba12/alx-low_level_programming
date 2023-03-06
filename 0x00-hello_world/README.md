@@ -20,4 +20,6 @@ This is the beginning of C-Programing on C using Vi and Emacs. I have installed 
   
 * **Hello, puts**
   * [4-puts.c](./4-puts.c): `C` program that prints exactly `"Programming is like building a multilingual puzzle"`, followed by a new line `printf`.
-     
+  
+  * **Hello, printf**   
+    * [5-printf.c](./5-printf.c):  `C` program that prints exactly `with proper grammar, but the outcome is a piece of art`, followed by a new line using the command `printf`
