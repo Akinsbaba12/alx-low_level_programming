@@ -7,6 +7,10 @@
 * [0x04-more_functions_nested_loops](./0x04-more_functions_nested_loops)
 * [0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings)
 * [0x06-pointers_arrays_strings](./0x06-pointers_arrays_strings)
+* [0x07-pointers_arrays_strings](./0x07-pointers_arrays_strings)
+* [0x08-recursion](./0x08-recursion)
+* [0x09-static_libraries](./0x09-static_libraries)
+* [0x0A-argc_argv](./0x0A-argc_argv)
 * I am on my way to be the best software engineer that I can possibly be!
 * more projects are coming soon!
 
