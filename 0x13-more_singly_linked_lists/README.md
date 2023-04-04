@@ -1,0 +1,1 @@
+A singly linked list is a linear data structure in which the elements are not stored in contiguous memory locations and each element is connected only to its next element using a pointer. For more informetion singly linked list, kindly click on the link below: [Singly linked list](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/).
