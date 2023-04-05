@@ -5,7 +5,7 @@
  * print_listint - Print all element of a listint_t list.
  * @h: This function takes a pointer to the listint_t list.
  *
- * Return: variable which conatins the number of nodes in the list_t list.
+ * Return: variable which conatins the number of count in the size_t.
  */
 size_t print_listint(const listint_t *h)
 {
