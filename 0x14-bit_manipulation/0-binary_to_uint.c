@@ -8,9 +8,9 @@
  * Return: When b is NULL or contains chars not 0 or 1 - 0.
  *         Otherwise - the converted number.
  */
+
 unsigned int binary_to_uint(const char *b)
 {
-
 	unsigned int num = 0;
 	int len = 0;
 
@@ -19,10 +19,10 @@ unsigned int binary_to_uint(const char *b)
 
 	while ((b[len] == '0') || (b[len] == '1'))
 	{
-	
-		num <<= 11;
+		num <<= 1;
 		num += b[len] - '0';
 		len++;
 	}
+
 	return (num);
 }
