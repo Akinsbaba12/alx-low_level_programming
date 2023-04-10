@@ -1,0 +1,2 @@
+Input/Output operations such as open, close, read, write and append, all of which deal with standard disk or tape files. The term would be used to refer to regular file operations in contrast to low-level system I/O such as dealing with virtual memory pages or OS tables of contents. Although the latter are also opened, closed, read and written, they are typically hidden from the user's view.
+to read more on [fileI/O](https://www.programiz.com/c-programming/c-file-input-output)
