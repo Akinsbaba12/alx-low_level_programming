@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print_binary - A function which print binary representation of a number.
- * @n: Numbers to print in binary.
- * Return: null
+ * print_binary - Binary representation of a number.
+ * @n: Binary printed number
+ * Return: void
  */
 void print_binary(unsigned long int n)
 {
 	int q, print = 0;
-	unsigned long int std;
+	unsigned long int rep;
 
-	for (q = 63; q >= 0; q--)
+	for (t = 63; t >= 0; t--)
 	{
-		std = n >> q;
+		qrt = n >> t;
 
-		if (std & 1)
+		if (qrt & 1)
 		{
 			_putchar('1');
 			print++;
