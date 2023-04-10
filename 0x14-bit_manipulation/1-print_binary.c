@@ -7,8 +7,8 @@
  */
 void print_binary(unsigned long int n)
 {
-	int q, print = 0;
-	unsigned long int rep;
+	int t, print = 0;
+	unsigned long int qrt;
 
 	for (t = 63; t >= 0; t--)
 	{
