@@ -55,10 +55,8 @@ To read more on this task, kindly click [File I/O](https://sophiaintech.hashnode
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+Javascript, HTML, CSS... C
 
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 
 ## 🚀 About Me
