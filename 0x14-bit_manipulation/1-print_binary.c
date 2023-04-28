@@ -1,47 +1,13 @@
 #include "main.h"
 
 /**
- * _craze - calculate (eli and craze)
- * @eli: eli of the exponet
- * @crz: craze of the exponet
- * Return: value of eli and craze
+ * print_binary - Prints the binary representation of a number.
+ * @n: The number to be printed in binary.
  */
-unsigned long int _craze(unsigned int eli, unsigned int crz)
+void print_binary(unsigned long int i)
 {
-        unsigned long int num;
-        unsigned int e;
+	if (i > 1)
+		print_binary(i >> 1);
 
-        num = 1;
-        for (e = 1; e <= crz; e++)
-                num *= eli;
-        return (num);
-}
-/**
- * print_binary - prints the binary representation of a number
- * @n: num of prented
- * Return: void
- */
-void print_binary(unsigned long int n)
-{
-        unsigned long int dev, result;
-        char flag;
-
-        flag = 0;
-        dev = _craze(2, sizeof(unsigned long int) * 8 - 1);
-
-        while (dev != 0)
-        {
-                result = n & dev;
-                if (result == dev)
-                {
-                        flag = 1;
-                        _putchar('1');
-
-                }
-                else if (flag == 1 || dev == 1)
-                {
-                        _putchar('0');
-                }
-                dev >>= 1;
-        }
+	_putchar((i & 1) + '0');
 }
