@@ -8,13 +8,13 @@
  */
 unsigned long int _craze(unsigned int eli, unsigned int crz)
 {
-	unsigned long int num;
-	unsigned int i;
+        unsigned long int num;
+        unsigned int e;
 
-	num = 1;
-	for (i = 1; i <= crz; i++)
-		num *= eli;
-	return (num);
+        num = 1;
+        for (e = 1; e <= crz; e++)
+                num *= eli;
+        return (num);
 }
 /**
  * print_binary - prints the binary representation of a number
@@ -23,25 +23,25 @@ unsigned long int _craze(unsigned int eli, unsigned int crz)
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int dev, result;
-	char flag;
+        unsigned long int dev, result;
+        char flag;
 
-	flag = 0;
-	dev = _craze(2, sizeof(unsigned long int) * 8 - 1);
+        flag = 0;
+        dev = _craze(2, sizeof(unsigned long int) * 8 - 1);
 
-	while (dev != 0)
-	{
-		result = n & dev;
-		if (result == dev)
-		{
-			flag = 1;
-			_putchar('1');
+        while (dev != 0)
+        {
+                result = n & dev;
+                if (result == dev)
+                {
+                        flag = 1;
+                        _putchar('1');
 
-		}
-		else if (flag == 1 || dev == 1)
-		{
-			_putchar('0');
-		}
-		dev >>= 1;
-	}
+                }
+                else if (flag == 1 || dev == 1)
+                {
+                        _putchar('0');
+                }
+                dev >>= 1;
+        }
 }
